@@ -119,16 +119,7 @@
             class="h-8 w-auto object-contain"
             src="logo.png"
           />
-          <div
-            class="flex items-center gap-space-xs px-2.5 py-1 rounded-full bg-sky-50 border border-sky-100"
-          >
-            <span class="material-symbols-outlined text-sky-600 text-sm"
-              >graphic_eq</span
-            ><span
-              class="font-label-sm text-xs font-semibold text-sky-700 tracking-wide"
-              >AUDIO</span
-            >
-          </div>
+        
         </div>
         <div class="hidden xl:flex items-center flex-1 max-w-md mx-space-sm">
           <div class="relative w-full">
@@ -164,11 +155,6 @@
             >Courses</a
           ><a
             class="px-3 py-1.5 rounded-full text-slate-600 hover:text-sky-600 hover:bg-slate-50 transition-colors text-sm font-medium"
-            data-path="podcasts-audio"
-            href="#"
-            >Podcasts &amp; Audio</a
-          ><a
-            class="px-3 py-1.5 rounded-full text-slate-600 hover:text-sky-600 hover:bg-slate-50 transition-colors text-sm font-medium"
             data-path="live-sessions"
             href="#"
             >Live Sessions</a
@@ -183,7 +169,12 @@
           <button
             class="h-10 px-5 rounded-full bg-sky-500 hover:bg-sky-600 text-white font-semibold text-sm shadow-[0_2px_12px_rgba(14,165,233,0.3)] hover:shadow-sky-300 transition-all hover:scale-[1.02]"
           >
-            Start Free Trial
+            Sign In
+          </button>
+          <button
+            class="h-10 px-5 rounded-full bg-sky-500 hover:bg-sky-600 text-white font-semibold text-sm shadow-[0_2px_12px_rgba(14,165,233,0.3)] hover:shadow-sky-300 transition-all hover:scale-[1.02]"
+          >
+            Login
           </button>
           <div class="flex items-center">
             <img
@@ -1260,108 +1251,6 @@
           });
       </script>
     </main>
-    <aside
-      class="fixed bottom-0 left-0 right-0 h-24 z-50 bg-white/95 backdrop-blur-xl border-t border-slate-200 shadow-[0_-4px_20px_rgba(15,23,42,0.06)] px-4 sm:px-8"
-    >
-      <div
-        class="max-w-7xl mx-auto h-full flex items-center justify-between gap-space-md"
-      >
-        <div
-          class="flex items-center gap-space-md min-w-[200px] max-w-[280px] shrink-0"
-        >
-          <div
-            class="relative w-14 h-14 rounded-lg bg-sky-50 border border-sky-100 overflow-hidden shrink-0 flex items-center justify-center"
-          >
-            <span class="material-symbols-outlined text-sky-600 text-2xl"
-              >record_voice_over</span
-            ><span
-              class="absolute bottom-1 right-1 px-1 rounded bg-white text-[10px] font-bold text-sky-600 shadow-sm border border-slate-100"
-              >ES</span
-            >
-          </div>
-          <div class="flex flex-col min-w-0">
-            <span class="font-semibold text-sm text-slate-900 truncate"
-              >Café Culture in Madrid (B1)</span
-            ><span class="text-xs text-slate-500 truncate"
-              >Carlos &amp; Elena • Conversational Spanish</span
-            >
-          </div>
-          <button
-            class="text-slate-400 hover:text-sky-500 transition-colors shrink-0"
-          >
-            <span class="material-symbols-outlined text-xl">favorite</span>
-          </button>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 flex-1 max-w-xl">
-          <div class="flex items-center gap-space-md">
-            <button
-              class="text-slate-400 hover:text-slate-700 transition-colors"
-            >
-              <span class="material-symbols-outlined text-xl"
-                >shuffle</span
-              ></button
-            ><button
-              class="text-slate-400 hover:text-slate-700 transition-colors"
-            >
-              <span class="material-symbols-outlined text-2xl"
-                >replay_10</span
-              ></button
-            ><button
-              class="w-10 h-10 rounded-full bg-sky-500 flex items-center justify-center text-white hover:bg-sky-600 hover:scale-105 transition-all shadow-md shadow-sky-500/25"
-            >
-              <span class="material-symbols-outlined text-2xl"
-                >play_arrow</span
-              ></button
-            ><button
-              class="text-slate-400 hover:text-slate-700 transition-colors"
-            >
-              <span class="material-symbols-outlined text-2xl"
-                >forward_10</span
-              ></button
-            ><button
-              class="px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-semibold text-xs hover:text-slate-900 transition-colors"
-            >
-              1.0x
-            </button>
-          </div>
-          <div class="w-full flex items-center gap-space-sm">
-            <span class="text-xs font-mono text-slate-500 w-10 text-right"
-              >08:24</span
-            >
-            <div
-              class="relative flex-1 h-1.5 rounded-full bg-slate-200 cursor-pointer group"
-            >
-              <div
-                class="absolute left-0 top-0 bottom-0 w-2/5 rounded-full bg-sky-500 group-hover:bg-sky-600"
-              ></div>
-            </div>
-            <span class="text-xs font-mono text-slate-500 w-10">21:50</span>
-          </div>
-        </div>
-        <div
-          class="hidden md:flex items-center justify-end gap-space-md min-w-[200px] shrink-0"
-        >
-          <button
-            class="flex items-center gap-1 text-slate-500 hover:text-sky-600 transition-colors"
-          >
-            <span class="material-symbols-outlined text-xl">subtitles</span
-            ><span class="text-xs font-semibold">Transcript</span></button
-          ><button
-            class="text-slate-400 hover:text-slate-700 transition-colors"
-          >
-            <span class="material-symbols-outlined text-xl">mic</span>
-          </button>
-          <div class="flex items-center gap-space-xs w-28">
-            <span class="material-symbols-outlined text-slate-400 text-lg"
-              >volume_up</span
-            >
-            <div class="w-full h-1.5 rounded-full bg-slate-200">
-              <div class="w-3/4 h-full rounded-full bg-sky-500"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </aside>
     <footer
       class="w-full bg-slate-50/80 border-t border-slate-200/80 py-space-xl"
     >
